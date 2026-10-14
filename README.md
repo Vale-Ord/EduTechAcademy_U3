@@ -70,33 +70,31 @@ El sistema cubre el proceso completo:
 ---
 
 ## Estructura del proyecto
+```
 EduTechAcademy_U3/
 ├── src/
-│ ├── domain/ # Reglas de negocio (Aggregates, Value Objects, entidades)
-│ │ ├── curso.py
-│ │ ├── grupo.py
-│ │ ├── estudiante.py
-│ │ ├── inscripcion.py
-│ │ └── value_objects.py
-│ ├── application/ # Service Layer (Application Services)
-│ │ ├── inscripcion_service.py
-│ │ ├── certificacion_service.py
-│ │ └── asistencia_service.py
-│ └── infrastructure/ # Repositorios en memoria y Unit of Work
-│ ├── repositorios_memoria.py
-│ └── unit_of_work.py
-├── tests/ # Pruebas automatizadas (unittest)
-│ ├── test_inscripcion.py
-│ ├── test_certificacion.py
-│ ├── test_cupo.py
-│ └── evidencias/ # Capturas y logs de ejecución
-│ ├── ejecucion-pruebas.png
-│ └── ejecucion-pruebas.txt
+│   ├── domain/              # Reglas de negocio (Aggregates, Value Objects, entidades)
+│   │   ├── curso.py
+│   │   ├── grupo.py
+│   │   ├── estudiante.py
+│   │   ├── inscripcion.py
+│   │   └── value_objects.py
+│   ├── application/         # Service Layer (Application Services)
+│   │   ├── inscripcion_service.py
+│   │   ├── certificacion_service.py
+│   │   └── asistencia_service.py
+│   └── infrastructure/      # Repositorios en memoria y Unit of Work
+│       ├── repositorios_memoria.py
+│       └── unit_of_work.py
+├── tests/                   # Pruebas automatizadas (unittest)
+│   ├── test_inscripcion.py
+│   ├── test_certificacion.py
+│   ├── test_cupo.py
+│   └── evidencias/          # Capturas y logs de ejecución
+│       ├── ejecucion-pruebas.png
+│       └── ejecucion-pruebas.txt
 └── README.md
-
-text
-
----
+```
 
 ## Cómo ejecutar las pruebas
 
