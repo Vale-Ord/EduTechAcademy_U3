@@ -1,0 +1,45 @@
+==================================================
+EduTechAcademy - Unidad 3 - Diseño Arquitectural
+Ejecución de pruebas automatizadas
+==================================================
+
+Comando ejecutado:
+python -m unittest discover -s tests -v
+
+Entorno:
+- Sistema operativo: Windows
+- Editor: Visual Studio Code (terminal PowerShell)
+- Lenguaje: Python 3.13
+- Marco de pruebas: unittest
+
+Resultado de la ejecución:
+--------------------------------------------------
+test_estudiante_elegible (test_certificacion.TestCertificacion.test_estudiante_elegible) ... ok
+test_estudiante_no_elegible_por_asistencia (test_certificacion.TestCertificacion.test_estudiante_no_elegible_por_asistencia) ... ok
+test_estudiante_no_elegible_por_calificacion (test_certificacion.TestCertificacion.test_estudiante_no_elegible_por_calificacion) ... ok
+test_grupo_no_finalizado (test_certificacion.TestCertificacion.test_grupo_no_finalizado) ... ok
+test_calificacion_aprueba (test_cupo.TestValueObjects.test_calificacion_aprueba) ... ok
+test_calificacion_invalida (test_cupo.TestValueObjects.test_calificacion_invalida) ... ok
+test_cupo_excede_capacidad (test_cupo.TestValueObjects.test_cupo_excede_capacidad) ... ok
+test_cupo_hay_lugar (test_cupo.TestValueObjects.test_cupo_hay_lugar) ... ok
+test_cupo_lleno (test_cupo.TestValueObjects.test_cupo_lleno) ... ok
+test_cupo_ocupar (test_cupo.TestValueObjects.test_cupo_ocupar) ... ok
+test_porcentaje_asistencia_cumple (test_cupo.TestValueObjects.test_porcentaje_asistencia_cumple) ... ok
+test_inscripcion_exitosa (test_inscripcion.TestInscripcion.test_inscripcion_exitosa) ... ok
+test_inscripcion_sin_cupo (test_inscripcion.TestInscripcion.test_inscripcion_sin_cupo) ... ok
+test_pago_confirma_inscripcion (test_inscripcion.TestInscripcion.test_pago_confirma_inscripcion) ... ok
+test_pago_monto_incorrecto (test_inscripcion.TestInscripcion.test_pago_monto_incorrecto) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.003s
+
+OK
+--------------------------------------------------
+
+Resumen:
+- Pruebas ejecutadas: 15
+- Pruebas aprobadas: 15
+- Pruebas fallidas: 0
+- Pruebas con error: 0
+- Pruebas omitidas: 0
+- Resultado final: OK
