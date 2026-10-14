@@ -8,7 +8,7 @@
 
 ---
 
-## 👥 Integrantes del equipo
+## Integrantes del equipo
 
 | Nombre | Matrícula |
 | :--- | :--- |
@@ -157,3 +157,4 @@ Nygard, M. (2011). Documenting architecture decisions. Cognitect.
 Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley.
 
 Repositorio
+https://github.com/Vale-Ord/EduTechAcademy_U3
